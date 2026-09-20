@@ -10,8 +10,7 @@ https://in-info-web4.luddy.indianapolis.iu.edu/~cjuyeno/Homework%202/
 
 GitHub 
 
-Link
-
+https://github.com/Uyenochris/n315-homework-2)
 
 
 
