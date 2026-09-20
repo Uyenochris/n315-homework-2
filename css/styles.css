@@ -1,0 +1,62 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #273033;
+  background: #f6f5f1;
+}
+
+.topbar {
+  background: #172327;
+  color: white;
+  padding: 20px 7%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topbar__logo { color: white; font-size: 24px; font-weight: bold; text-decoration: none; }
+.topbar__logo span { color: #f4bd19; }
+.topbar__nav a { color: white; text-decoration: none; margin-left: 25px; }
+.topbar__nav a:hover { color: #f4bd19; }
+
+.hero {
+  min-height: 500px;
+  padding: 80px 8%;
+  display: flex;
+  align-items: center;
+  color: white;
+  background: linear-gradient(#355b62, #172327);
+}
+
+.hero h1 { font-family: Georgia, serif; font-size: 60px; margin: 10px 0; }
+.hero p { max-width: 550px; font-size: 18px; }
+.hero button { background: #f4bd19; border: 0; padding: 12px 20px; }
+
+.welcome { padding: 55px 15%; text-align: center; background: white; }
+.welcome h2, .green h2 { font-family: Georgia, serif; font-size: 35px; }
+.welcome p, .green p { line-height: 1.7; }
+
+.cards {
+  padding: 55px 8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.card { background: white; padding: 25px 0 20px; border-bottom: 4px solid #f4bd19; }
+.card h3, .card p { margin-left: 18px; margin-right: 18px; }
+.card p { line-height: 1.5; }
+
+.green { background: #177568; color: white; padding: 55px 15%; text-align: center; }
+.footer { background: #111; color: #bbb; padding: 25px 7%; display: flex; justify-content: space-between; }
+.footer p { margin: 0; }
+
+@media (max-width: 700px) {
+  .topbar { display: block; }
+  .topbar__nav { margin-top: 15px; }
+  .topbar__nav a { margin: 0 12px 0 0; }
+  .hero h1 { font-size: 42px; }
+  .cards { grid-template-columns: 1fr; }
+  .footer { display: block; }
+}

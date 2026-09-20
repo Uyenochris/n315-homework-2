@@ -1,0 +1,13 @@
+{
+  "name": "homework-2-travel-site",
+  "version": "1.0.0",
+  "description": "A simple travel MVC homework site",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass scss/styles.scss css/styles.css -w",
+    "start": "npx serve ."
+  },
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
+}
